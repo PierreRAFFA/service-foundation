@@ -1,4 +1,4 @@
-# Node Core
+# Service Foundation
 
 Modular Node Service which creates an app containing all minimal functionalities 
 
@@ -311,14 +311,14 @@ The status code is **500**
 
 #### 1. Import the library in dev mode
 
-Create a symlink to node-core into the global node packages  
-Import node-core in the ms  
-In the ms, overwrite node-core to use the one installed globally  
+Create a symlink to service-foundation into the global node packages  
+Import service-foundation in the ms  
+In the ms, overwrite service-foundation to use the one installed globally  
 
 ```bash
 $ git clone ...
-$ cd node-core
+$ cd service-foundation
 $ nvm deactivate
 $ npm link
 ```
-> if nvm is enabled it will link node-core to the global node packages in `~/.nvm/versions` and prevent to work in devs-docker
+> if nvm is enabled it will link service-foundation to the global node packages in `~/.nvm/versions` and prevent to work in devs-docker
